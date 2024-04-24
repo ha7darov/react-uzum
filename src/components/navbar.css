@@ -19,5 +19,28 @@ a{
 }
 .go-day{
     color: #8b8e99;
-
+}
+.sell-uzum{
+    color: #7000FF;
+}
+.for-user{
+    display: flex;
+    gap: 10px;
+}
+.uzb-flag{
+    width: 24px;
+}
+.SelectLang{
+    border:none;
+    background-color: #f2f4f7;
+    display: flex;
+    align-items: center;
+}
+.DarkTheme {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    span{
+        margin-left: 10px;
+    }
 }
