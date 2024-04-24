@@ -3,10 +3,11 @@ import "./navbar.css";
 import { ReactComponent as LocationSVG } from "../img/navbar/location.svg";
 import { ReactComponent as UzbFlag } from "../img/navbar/uzb-flag.svg";
 import { ReactComponent as DarkModeSVG } from "../img/navbar/dark-theme.svg";
+import { ReactComponent as UzumMarketSVG } from "../img/navbar/UzumMarket.svg";
 
 function Navbar() {
   return (
-    <nav>
+    <div>
       {/* Container */}
       <div className="Container">
         {/* TopBackground */}
@@ -45,7 +46,28 @@ function Navbar() {
           </div>
         </div>
       </div>
-    </nav>
+      {/* // ================= Navbar ================= */}
+      <nav>
+          <div className="Navbar">
+            {/* FIXME: Uzum Market */}
+              <div>
+                  <div className="nav-1">
+                    <a href="../../public/index.html">
+                      <UzumMarketSVG className="uzum-market" /> {/* SVG Component Run */}
+                    </a>
+                  </div>
+                  <div className="Katalog">
+
+                  </div>
+              </div>
+              {/* FIXME: tab text's */}
+              <div></div>
+          </div>
+      </nav>
+    </div>
+
+    
+    
   );
 }
 

@@ -1,3 +1,4 @@
+/* ================= TopBG ================= */
 .topBG{
     width: 100%;
     height: 36px;
@@ -43,4 +44,27 @@ a{
     span{
         margin-left: 10px;
     }
+}
+
+/* ================= Navbar ================= */
+
+.Navbar{
+    max-width: 1240px;
+    max-width: 320px;
+    margin: 0 auto;
+    .nav-1{
+        display: flex;
+    }
+}
+
+.uzum-market {
+    width: 215px;
+    height: 32px;
+}
+
+.Katalog{
+    width: 120px;
+    height: 40px;
+    background-color: #f0f0ff;
+    border-radius: 10px;
 }
