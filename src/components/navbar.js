@@ -1,6 +1,6 @@
 import React from "react";
 import "./navbar.css";
-import LocationSVG from '../../img/navbar/location.svg';
+import LocationSVG from '../img/navbar/location.svg';
 
 function Navbar() {
   return (
