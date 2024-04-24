@@ -1,9 +1,9 @@
 import React from "react";
 import "./navbar.css";
-import { ReactComponent as LocationSVG } from "../img/navbar/location.svg";
-import { ReactComponent as UzbFlag } from "../img/navbar/uzb-flag.svg";
-import { ReactComponent as DarkModeSVG } from "../img/navbar/dark-theme.svg";
-import { ReactComponent as UzumMarketSVG } from "../img/navbar/UzumMarket.svg";
+import { ReactComponent as LocationSVG } from "../../img/navbar/location.svg";
+import { ReactComponent as UzbFlag } from "../../img/navbar/uzb-flag.svg";
+import { ReactComponent as DarkModeSVG } from "../../img/navbar/dark-theme.svg";
+import { ReactComponent as UzumMarketSVG } from "../../img/navbar/UzumMarket.svg";
 
 function Navbar() {
   return (
